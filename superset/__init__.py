@@ -38,7 +38,7 @@ from superset.utils.log import DBEventLogger, get_event_logger_from_cfg_value
 #  All of the fields located here should be considered legacy. The correct way
 #  to declare "global" dependencies is to define it in extensions.py,
 #  then initialize it in app.create_app(). These fields will be removed
-#  in subsequent PRs as things are migrated towards the factory pattern
+#  in subsequent PRs as things   are migrated towards the factory pattern
 app: Flask = current_app
 cache = LocalProxy(lambda: cache_manager.cache)
 conf = LocalProxy(lambda: current_app.config)

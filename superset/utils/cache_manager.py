@@ -17,7 +17,7 @@
 from flask import Flask
 from flask_caching import Cache
 
-from superset.typing import CacheConfig
+from superset.superset_typing import CacheConfig
 
 
 class CacheManager:

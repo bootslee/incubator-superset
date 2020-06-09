@@ -85,7 +85,7 @@ from superset.exceptions import (
     SupersetException,
     SupersetTimeoutException,
 )
-from superset.typing import FormData, Metric
+from superset.superset_typing import FormData, Metric
 from superset.utils.dates import datetime_to_epoch, EPOCH
 
 try:

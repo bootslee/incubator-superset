@@ -33,7 +33,7 @@ from wtforms.validators import Regexp
 from superset import app, db, security_manager
 from superset.connectors.base.views import DatasourceModelView
 from superset.constants import RouteMethod
-from superset.typing import FlaskResponse
+from superset.superset_typing import FlaskResponse
 from superset.utils import core as utils
 from superset.views.base import (
     create_table_permissions,

@@ -39,7 +39,7 @@ from superset.jinja_context import (  # pylint: disable=unused-import
     BaseTemplateProcessor,
 )
 from superset.stats_logger import DummyStatsLogger
-from superset.typing import CacheConfig
+from superset.superset_typing import CacheConfig
 from superset.utils.log import DBEventLogger
 from superset.utils.logging_configurator import DefaultLoggingConfigurator
 

@@ -27,7 +27,7 @@ from flask_babel import gettext as __, lazy_gettext as _
 import superset.models.core as models
 from superset import app, db, event_logger
 from superset.constants import RouteMethod
-from superset.typing import FlaskResponse
+from superset.superset_typing import FlaskResponse
 from superset.utils import core as utils
 
 from ..base import (

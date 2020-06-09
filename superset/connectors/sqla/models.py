@@ -62,7 +62,7 @@ from superset.jinja_context import (
 from superset.models.annotations import Annotation
 from superset.models.core import Database
 from superset.models.helpers import AuditMixinNullable, QueryResult
-from superset.typing import Metric, QueryObjectDict
+from superset.superset_typing import Metric, QueryObjectDict
 from superset.utils import core as utils, import_datasource
 
 config = app.config
